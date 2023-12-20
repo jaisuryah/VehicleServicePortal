@@ -1,0 +1,37 @@
+.brandnameletternav
+{
+    color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.brandnameletternav::first-letter
+{
+    color: red;
+
+}
+
+
+.MuiDrawer-root {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.MuiDrawer-paper {
+  width: 240px;
+  background-color: #1d1d1d; /* Change the background color */
+  color: white;
+}
+
+.ListItem-root {
+  color: white;
+}
+
+/* Add this CSS in your stylesheet */
+.panelItem {
+  transition: background-color 0.3s;
+}
+
+.panelItem:hover {
+  background-color: whitesmoke;
+}
+

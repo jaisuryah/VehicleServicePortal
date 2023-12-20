@@ -1,0 +1,215 @@
+
+    .imgbar
+    {
+    margin-top: 10px;
+    width: 1500px;
+    background-image: url("./man.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    }
+
+
+    .home-page {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: whitesmoke;
+    }
+    
+    .hed {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    .services,
+    .booking {
+        margin-bottom: 30px;
+    }
+    
+    .form-container-home {
+        max-width: 700px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        background-color: white;
+    }
+    
+    .form-table {
+        width: 100%;
+    }
+    
+    .input-field-home,
+    .date-field,
+    .submit-button {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: calc(100% - 22px);
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    
+    .date-field {
+        padding: 8px;
+    }
+    
+
+    .select-field {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: calc(100% - 22px);
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        appearance: none;
+        background-color: #fff;
+        cursor: pointer;
+    }
+    
+
+    .select-field option {
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .select-field option:hover {
+        background-color: #f2f2f2;
+    color: #000;
+    }
+    
+    .submit-button {
+        background-color: rgb(201, 18, 18);
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .submit-button:hover {
+        background-color: rgb(182, 20, 20);
+    }
+    
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .services {
+        flex: 1;
+        order: 1;
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 700px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        float: right;
+    }
+    
+    .services h2 {
+        margin-bottom: 20px;
+        color: #333;
+        font-size: 24px;
+    }
+    
+    .services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .services li {
+        padding: 8px 0;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .services li:last-child {
+        border-bottom: none;
+    }
+    
+    .booking {
+        flex: 1;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .featured-services,
+    .testimonials,
+    .faq {
+        margin-bottom: 30px;
+    }
+    
+    img {
+        width: 100%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .brr
+    {
+        color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 40px;
+    text-shadow: 2px 6px 4px #000000;
+    }
+
+    .brr::first-letter
+    {
+        color: red;
+    
+    }
+
+    .banner{
+        color: white;
+        font-family: Arial;
+        font-weight: 700;
+        text-shadow: 2px 2px 4px #000000;
+        margin-left: 40px;
+
+    }
+
+    .bannerdiv{
+        margin-top: 90px;
+        width: 400px;
+    }
+    
+    .horiline
+    {
+        color: white;
+        margin-left: 40px;
+        height: 8px;
+        border-radius: 40px;
+        background-color: white;
+
+    }
+        .button1 {
+            margin-left: 90px;
+            margin-top: 60px;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 30px;
+            background-color: rgb(201, 18, 18);
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+            .button1:hover {
+            background-color: rgb(182, 20, 20);
+            color: white;
+            transition-duration: 1s;
+        }

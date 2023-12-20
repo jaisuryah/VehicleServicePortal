@@ -1,0 +1,26 @@
+
+.custom-carousel {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel .slide {
+    background-color: rgb(201, 18, 18);;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .carousel .slide h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .carousel .slide p {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+
+  
