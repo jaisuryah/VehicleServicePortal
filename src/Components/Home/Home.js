@@ -107,6 +107,7 @@ const HomePage = () => {
     <li>Diagnostic Check-up</li>
     <li>Car Wash & Detailing</li>
     <li>Fuel System Cleaning</li>
+    <li>Engine Replacement</li>
     <li>Full Service</li>
     <li>Brake Service</li>
 

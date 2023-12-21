@@ -53,7 +53,7 @@ function ResponsiveAppBar() {
       <Container maxWidth="xl">
         <Toolbar disableGutters sx={{ height: '40px' }}>
           <Typography
-            variant="h6"
+            variant="h5"
             noWrap
             component="a"
             href="#app-bar-with-responsive-menu"
@@ -94,7 +94,7 @@ function ResponsiveAppBar() {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center" sx={{ color: 'black' }}>
-                    {page}
+                      {page}
                   </Typography>
                 </MenuItem>
               ))}
@@ -112,27 +112,27 @@ function ResponsiveAppBar() {
               </Button>
             ))}
           </Box>
-
-          <Button
-            variant="contained"
-            onClick={handleCloseUserMenu}
-            startIcon={<LogoutIcon />}
-            sx={{ backgroundColor: 'red', color: 'white', ml: 2, fontWeight: 'bold', paddingRight: '25px' }}
-          >
-            Log Out
-          </Button>
-
-          <Button onClick={toggleDrawer(true)} sx={{ color: 'white',padding:'20px' }}><AccountCircleIcon/></Button>
-
           <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer(false)} sx={{ width: '280px' }}>
-            <List>
-              {panels.map((panel) => (
-                <ListItem button key={panel} onClick={toggleDrawer(false)} className="panelItem">
-                  <Typography variant="subtitle1">{panel}</Typography>
-                </ListItem>
-              ))}
+          <List>
+          {panels.map((panel) => (
+            <ListItem button key={panel} onClick={toggleDrawer(false)} className="panelItem">
+            <Typography variant="subtitle1">{panel}</Typography>
+            </ListItem>
+            ))}
             </List>
-          </Drawer>
+            </Drawer>
+            <Button onClick={toggleDrawer(true)} sx={{ color: 'white',padding:'20px' }}><AccountCircleIcon/></Button>
+            <Link to = '/'>
+        <Button
+          variant="contained"
+          onClick={handleCloseUserMenu}
+          startIcon={<LogoutIcon />}
+          sx={{ backgroundColor: 'red', color: 'white', ml: 2, fontWeight: 'bold', paddingRight: '25px' }}
+        >
+          Log Out
+        </Button>
+            </Link>
+            
         </Toolbar>
       </Container>
     </AppBar>

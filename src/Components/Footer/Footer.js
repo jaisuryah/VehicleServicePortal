@@ -11,14 +11,14 @@ const Footer = () => {
           <a href="#" className="social-icon"><FaInstagram style={{ marginLeft: '10px', color: '#c32aa3' }} /></a>
         </div>
         <div className="legal">
-          <span>&copy; 2023 QuickService Booking Portal  </span>
-          <a href="#">Privacy Policy</a>
+          <span>&copy; 2023 QuickService Booking Portal -</span>
+          <a href="#">Privacy Policy-</a>
           <a href="#">Terms of Service</a>
         </div>
         <div className="contact-info">
           <p>Contact us:</p>
           <p>Email: info@example.com</p>
-          <p>Phone: +1 123 456 7890</p>
+          <p>Phone: +919345447540</p>
         </div>
       </div>
     </footer>

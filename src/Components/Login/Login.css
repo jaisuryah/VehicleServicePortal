@@ -30,7 +30,7 @@ z-index: -1;
 {
   height: 100vh;
 }
-/*   i can write anything here */
+
 .container{
     height: 100vh;
 }
@@ -53,11 +53,11 @@ z-index: -1;
 }
 .field input
 {
-  width: 350px;
-  font-weight: 400;
-  border: none;
-  height: 100%;
-
+    width: 350px;
+    font-weight: 400;
+    border: none;
+    height: 100%;
+    
 }
 
 .sign-form
@@ -78,6 +78,7 @@ z-index: -1;
     padding: 0 8px;
     border: 1px solid#CACACA;
     right: 9px;
+    
 }
 .field input:focus{
     border-bottom-width: 1px;
@@ -129,7 +130,7 @@ z-index: -1;
 a{
     text-decoration: none;
     color: #fff;
-
+    
 }
 
 .display
@@ -140,8 +141,7 @@ a{
 }
 
 .display p{
-    /* text-align: center; */
-    /* line-height: 3px; */
+
     color: red;
 }
 
@@ -156,15 +156,15 @@ a{
     width: 345px;
     margin-right: 80px;
     padding: auto;
-    margin-left: 40px;
-  }
-  
+
+    margin-left: 60px;
+}
+
   .password-toggle-login {
-    position: absolute;
-    top: 25%;
+      position: absolute;
+      top: 25%;
     right: 10px;
-    transform: translateX(+300%);
-    padding: 5px;
+    transform: translateX(+130%);
     border: none;
     background: transparent;
     cursor: pointer;
